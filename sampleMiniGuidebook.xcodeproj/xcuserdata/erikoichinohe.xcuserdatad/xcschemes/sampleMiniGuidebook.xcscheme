@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "19B15EA91E4430E0008A34E7"
+               BuildableName = "sampleMiniGuidebook.app"
+               BlueprintName = "sampleMiniGuidebook"
+               ReferencedContainer = "container:sampleMiniGuidebook.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "19B15EBD1E4430E0008A34E7"
+               BuildableName = "sampleMiniGuidebookTests.xctest"
+               BlueprintName = "sampleMiniGuidebookTests"
+               ReferencedContainer = "container:sampleMiniGuidebook.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "19B15EC81E4430E0008A34E7"
+               BuildableName = "sampleMiniGuidebookUITests.xctest"
+               BlueprintName = "sampleMiniGuidebookUITests"
+               ReferencedContainer = "container:sampleMiniGuidebook.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "19B15EA91E4430E0008A34E7"
+            BuildableName = "sampleMiniGuidebook.app"
+            BlueprintName = "sampleMiniGuidebook"
+            ReferencedContainer = "container:sampleMiniGuidebook.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "19B15EA91E4430E0008A34E7"
+            BuildableName = "sampleMiniGuidebook.app"
+            BlueprintName = "sampleMiniGuidebook"
+            ReferencedContainer = "container:sampleMiniGuidebook.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "19B15EA91E4430E0008A34E7"
+            BuildableName = "sampleMiniGuidebook.app"
+            BlueprintName = "sampleMiniGuidebook"
+            ReferencedContainer = "container:sampleMiniGuidebook.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
